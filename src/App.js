@@ -44,9 +44,10 @@ function App() {
   ];
 
   const [colaboradores, setColaboradores] = useState([]);
-
+  
   const aoNovoColaboradorAdicionado = (colaborador) => {
-    console.log(colaborador);
+    //console.log(colaborador); // Verifica os dados do colaborador
+    debugger // Pausa a execução do código no momento de adicionar o colaborador
     setColaboradores([...colaboradores, colaborador]);
   };
 
