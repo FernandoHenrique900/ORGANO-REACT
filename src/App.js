@@ -2,6 +2,7 @@ import { useState } from "react";
 import Banner from "./componentes/Banner";
 import Formulario from "./componentes/Formulario";
 import Time from "./componentes/Time";
+import Rodape from "./componentes/Rodape";
 
 function App() {
   const times = [
@@ -60,15 +61,17 @@ function App() {
       />
       {times.map((time) => (
         <Time
-          key={time.nome}
-          nome={time.nome}
-          corPrimaria={time.corPrimaria}
-          corSecundaria={time.corSecundaria}
-          colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}
+          key={time.nome} // Chave única para cada time
+          nome={time.nome} // Nome do time
+          corPrimaria={time.corPrimaria} // Cor primária do time
+          corSecundaria={time.corSecundaria} // Cor de fundo do time
+          colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)} // Filtra os colaboradores pelo time
         />
       ))}
+      <Rodape />
     </div>
   );
 }
+
 
 export default App;

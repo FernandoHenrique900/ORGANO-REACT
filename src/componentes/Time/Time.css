@@ -6,7 +6,8 @@
 .time h3{
     font-size: 32px;
     border-bottom: 4px solid;
-    display: inline-block;
+    display: inline-block; /* Evita que o conteúdo quebra a linha */
+    width: fit-content;
     padding-bottom: 8px;
 }
 
@@ -14,5 +15,5 @@
     display: flex;
     justify-content:  space-around;
     margin-top: 32px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Quebra a linha quando o conteúdo exceder o espaço disponível */
 }

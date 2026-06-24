@@ -5,9 +5,9 @@ const Time = (props) => {
   const css = { backgroundColor: props.corSecundaria };
 
   return (
-    <section className="time" style={css}>
-      <h3 style={{ borderColor: props.corPrimaria }}>{props.nome}</h3>
-      <div>
+    (props.colaboradores.length > 0) && <section className="time" style={css}> {/* Só exibe se houver colaboradores */}
+      <h3 style={{ borderColor: props.corPrimaria }}>{props.nome}</h3> 
+      <div className="Colaboradores">
       {props.colaboradores.map((colaborador) => (
         <Colaborador 
           nome={colaborador.nome}
