@@ -1,11 +1,14 @@
 # Projeto em React 
 
--Tecnologias usadas
+Organograma para times de tecnologia separado por áreas
+
+*Tecnologias usadas:
+
   -React
   -HTML5
   -CSS
-  -NodeJS
+  -Javascrip-NodeJS
 
 
 
-Link:https://organo-react-chi-seven.vercel.app/
+Link: https://organo-react-chi-seven.vercel.app/
