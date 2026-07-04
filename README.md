@@ -1,7 +1,11 @@
-# Getting Started with Create React App
+# Projeto em React 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-Tecnologias usadas
+  -React
+  -HTML5
+  -CSS
+  -NodeJS
 
--Primeiro projeto web usando React
+
 
 Link:https://organo-react-chi-seven.vercel.app/
